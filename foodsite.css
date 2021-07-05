@@ -45,3 +45,34 @@ body{
     text-decoration: none;
     color: #fff;
 }
+.main-contain{
+    display: flex;
+    justify-content: space-between;
+}
+.text-row{
+    margin: 30vh 10vw ;
+}
+.text-row p{
+    margin-bottom: 30px;
+}
+.text h1{
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+.text span{
+    color: tomato;
+    font-size: 50px;
+}
+.text-row a{
+    padding: 10px 15px;
+    background-color: tomato;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.image-row img{
+    width: 100%;
+    margin-top: 10vh;
+}
