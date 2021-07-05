@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.header{
+    background-color: #333;
+    display: flex;
+    justify-content: space-around;
+}
+.logo {
+   
+    color: aliceblue;
+}
+.logo .logo-text{
+    font-size: 50px;
+    color: aquamarine;
+}
+
+ 
+
+.menu li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 20px 0;
+}
+.menu li a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 1px 5px;
+  
+    background-color: tomato;
+}
+.search{
+    margin-top: 20px;
+}
+.search a{
+    padding: 3px 5px;
+    background-color: tomato;
+    border: 1px solid #fff;
+    text-decoration: none;
+    color: #fff;
+}
