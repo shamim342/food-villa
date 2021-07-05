@@ -87,7 +87,7 @@ body{
 .second-contain{
     display: flex;
     justify-content: space-around;
-    height: 90vh;
+    height: 100vh;
     background-image: url(../food-villa/image/Frame\ 58.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -96,4 +96,48 @@ body{
 }
 #text-row{
     margin-top: 10vh;
+}
+
+.third-contain{
+    width: 100vw;
+    height: 110vh;
+    
+}
+.third-contain .text{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.box-contain{
+    display: flex;
+    margin: 5% 5%;
+
+}
+.wrap{
+    padding: 10px 15px;
+    margin-left: 60px;
+    border: 5px solid #fff;
+    border-radius: 15px;
+    box-shadow: 1px 1px  20px  rgba(51, 51, 51, 0.137);
+
+}
+
+.box img{
+    width: 100%;
+    height: auto;
+
+}
+
+.forth-contain{
+    height: 30vh;
+    width: 60vw;
+    margin: 50px auto;
+    border: 5px solid #fff;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 1px 1px 10px rgba(51, 51, 51, 0.205);
+    
+
 }
