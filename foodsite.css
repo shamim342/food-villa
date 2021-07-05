@@ -48,6 +48,7 @@ body{
 .main-contain{
     display: flex;
     justify-content: space-between;
+    height: 120vh;
 }
 .text-row{
     margin: 30vh 10vw ;
@@ -74,5 +75,25 @@ body{
 
 .image-row img{
     width: 100%;
+    margin-top: 10vh;
+}
+   
+#image-row img{
+    width: 40vw;
+    height: 80vh;
+    padding: 10px 40px;
+    margin-top: 5vh;
+}
+.second-contain{
+    display: flex;
+    justify-content: space-around;
+    height: 90vh;
+    background-image: url(../food-villa/image/Frame\ 58.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+#text-row{
     margin-top: 10vh;
 }
